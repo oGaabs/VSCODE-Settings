@@ -31,8 +31,11 @@
     "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, package-lock*, yarn.lock",
     "tailwind.config*": "tailwind.config.*, postcss.config.*",
     ".env.local": ".env.*",
-    ".env": ".env.*",
+    ".env": {
+    }
   },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
 
   // ===================== Git Settings =====================
   "git.autofetch": true,                         // Automatically fetch changes from the remote repository
