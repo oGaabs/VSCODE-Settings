@@ -16,7 +16,8 @@ Welcome to my personal VSCode configuration! This repository contains my favorit
 ## 🚀 Quick Start
 1. **Clone this repository**
 2. **Copy settings**
-   - Replace your VSCode `settings.json`.
+   - Replace your VSCode `settings.json`
+   - Do Win+R and paste `%APPDATA%\Code\User\settings.json`.
 3. **Install Extensions**
 
 ## 🧩 Extensions by Functionality
