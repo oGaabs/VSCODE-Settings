@@ -1,6 +1,17 @@
-# 📋 VSCode Settings & Extensions
 
-Welcome to my personal VSCode configuration! This repository contains my favorite settings and a curated list of extensions to boost productivity, code quality, and the overall development experience. Whether you're a developer, designer, or data scientist, you'll find something useful here.
+<div align="center">
+
+<h1 style="font-size:2.5rem; margin-bottom:0.5em;">📋 VSCode Settings & Extensions</h1>
+
+<p style="font-size:1.15rem; max-width:700px; margin:0 auto 1.5em auto; color:#bdbdbd;">
+Welcome to my personal VSCode configuration! This repository contains my favorite settings and a curated list of extensions to boost productivity, code quality, and the overall development experience.<br>
+<b>Whether you're a developer, designer, or data scientist, you'll find something useful here.</b>
+</p>
+
+<h2 style="margin-top:0.5em;">🎨 Visual Example</h2>
+<img src="folder-icontest/example.png" alt="Theme Example" width="800" style="border-radius:12px; box-shadow:0 4px 24px #0002; margin: 1em 0;" />
+
+</div>
 
 ## 🚀 Quick Start
 1. **Clone this repository**
@@ -48,7 +59,6 @@ Welcome to my personal VSCode configuration! This repository contains my favorit
 ## 📦 Files
 - `settings.json` — My VSCode settings
 - `theme-test.py` — Theme test file
-
 
 ## 💡 Tips
 - Use the Command Palette (`Ctrl+Shift+P`) to quickly access VSCode features.
