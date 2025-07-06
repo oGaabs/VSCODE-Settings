@@ -10,6 +10,7 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": "always"    // Organizes imports automatically on save.
   },
+  "editor.minimap.enabled": false,        // Disable minimap
 
   "files.autoSave": "afterDelay",         // Automatically save files after a delay
   "files.trimTrailingWhitespace": true,   // Automatically trim trailing whitespace on save
@@ -22,12 +23,23 @@
   // ===================== UI & Appearance =====================
   "workbench.iconTheme": "material-icon-theme",  // Use Extension Material Icon Theme
   "workbench.colorTheme": "Dark+ (contrast)",    // Use Extension Default Dark+ Contrast or Github Dark High Constrast
+  "workbench.editor.labelFormat": "short",       // Use short labels for editor tabs
+
+  "explorer.compactFolders": false,              // Disable compact folders in the Explorer
+  "explorer.fileNesting.enabled": true,          // Enable file nesting in the Explorer
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, package-lock*, yarn.lock",
+    "tailwind.config*": "tailwind.config.*, postcss.config.*",
+    ".env.local": ".env.*",
+    ".env": ".env.*",
+  },
 
   // ===================== Git Settings =====================
   "git.autofetch": true,                         // Automatically fetch changes from the remote repository
   "git.blame.editorDecoration.enabled": true,    // Enable Git blame annotations in the editor
   "git.blame.editorDecoration.template": "${subject}, ${authorName} (${authorDateAgo})  (${hash}) ",
   "diffEditor.ignoreTrimWhitespace": false,
+
 
   // ===================== Language & Tooling =====================
   "[python]": {
@@ -46,7 +58,6 @@
   "debug.javascript.unmapMissingSources": true,
 
   // ===================== Extensions & Integrations =====================
-
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
