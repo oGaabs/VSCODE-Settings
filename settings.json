@@ -1,0 +1,57 @@
+{
+  // ===================== Core Editor & Formatting =====================
+  "editor.inlineSuggest.enabled": true,
+  "editor.autoIndent": "keep",
+  "editor.tabSize": 2,                    // Set tab size to 2 spaces for consistency
+  "editor.detectIndentation": false,      // Disable automatic detection of indentation
+  "editor.renderWhitespace": "all",       // Show whitespace characters
+  "editor.insertSpaces": true,            // Use spaces instead of tabs
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"    // Organizes imports automatically on save.
+  },
+
+  "files.autoSave": "afterDelay",         // Automatically save files after a delay
+  "files.trimTrailingWhitespace": true,   // Automatically trim trailing whitespace on save
+
+  "debug.inlineValues": "on",             // Show inline values in the editor during debugging
+
+  "explorer.confirmDragAndDrop": false,   // Disable confirmation for drag and drop in Explorer
+
+
+  // ===================== UI & Appearance =====================
+  "workbench.iconTheme": "material-icon-theme",  // Use Extension Material Icon Theme
+  "workbench.colorTheme": "Dark+ (contrast)",    // Use Extension Default Dark+ Contrast or Github Dark High Constrast
+
+  // ===================== Git Settings =====================
+  "git.autofetch": true,                         // Automatically fetch changes from the remote repository
+  "git.blame.editorDecoration.enabled": true,    // Enable Git blame annotations in the editor
+  "git.blame.editorDecoration.template": "${subject}, ${authorName} (${authorDateAgo})  (${hash}) ",
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // ===================== Language & Tooling =====================
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8" // Use Extension Auto pep 8
+  },
+  "autopep8.args": [
+    "--indent-size=2",       // Set indent size to 2 spaces
+    "--max-line-length=120", // Set maximum line length to 120 characters
+    "--ignore=E501,E701"     // Ignore some errors
+  ],
+
+
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "debug.javascript.unmapMissingSources": true,
+
+  // ===================== Extensions & Integrations =====================
+
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "debugpy.showPythonInlineValues": true // Experimental - Show inline values in Python debugging
+}
