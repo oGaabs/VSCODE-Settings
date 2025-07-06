@@ -30,7 +30,7 @@ Welcome to my personal VSCode configuration! This repository contains my favorit
 
 ### 🛠️ Utilities
 - [REST Client (for .http files)](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
-- [Rainbow CSV (Separated csv columns with colors)](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+- [Rainbow CSV (Color separated csv columns)](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 
 ### 🖌️ Formatting
 - [isort](https://marketplace.visualstudio.com/items?itemName=ms-python.isort) — Python import sorter
