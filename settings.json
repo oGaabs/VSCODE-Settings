@@ -5,11 +5,12 @@
   "editor.tabSize": 2,                    // Set tab size to 2 spaces for consistency
   "editor.detectIndentation": false,      // Disable automatic detection of indentation
   "editor.renderWhitespace": "all",       // Show whitespace characters
-  "editor.insertSpaces": true,            // Use spaces instead of tabs
+  "editor.insertSpaces": true,            // Use spaces instead of tabs for consistency
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.organizeImports": "always"    // Organizes imports automatically on save.
   },
+  "editor.wordWrap": "off",               // Disable word wrap
   "editor.minimap.enabled": false,        // Disable minimap
 
   "files.autoSave": "afterDelay",         // Automatically save files after a delay
