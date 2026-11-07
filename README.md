@@ -55,7 +55,7 @@ Welcome to my personal VSCode configuration! This repository contains my favorit
 
 ### 🐳 Containers & Cloud
 - [Azure Containers](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-containers)
-
+- [Remote Explorer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer)
 ---
 
 ## 📦 Files
